@@ -1,2 +1,3 @@
-# craze
-Craze
+# Craze
+
+Craze test.

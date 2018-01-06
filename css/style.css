@@ -1,0 +1,231 @@
+.pricing {
+    background-color: #e7e7e7;
+}
+.pricing-slot {
+    padding: 50px 2px;
+}
+.pricing-item {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0;
+}
+.pricing-item h3 {
+    background-color: #3498db;
+    padding: 16px;
+    margin-top: 0;
+    color: #ffffff;
+}
+.pricing-item a {
+    font-size: 18px;
+}
+.pricing-item a span {
+    font-size: 12px;
+}
+.pricing-item ul {
+    list-style: none;
+    padding: 0;
+}
+.pricing-item ul li {
+    border-top: 1px #8484847d;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-style: solid;
+    margin: 0 20px 0 20px;
+    color: #848484;
+    padding: 10px;
+}
+.pricing-item h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    padding: 3px;
+    margin-left: -33px;
+}
+.pricing-item span {
+    display: block;
+    margin-top: -40px;
+    padding-left: 105px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #000000;
+}
+.pricing-buy {
+    background-color: #3498db;
+    padding: 20px 0;
+}
+.pricing-buy p {
+    background-color: #0d74b9;
+    margin: 0 22%;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header-icon {
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.header-apple {
+    padding: 10px 10px 10px 14px;
+}
+.header-android {
+    padding: 10px 10px 10px 14px;
+}
+.header-windows {
+    padding: 10px 10px 10px 11px;
+}
+.header-icon:hover {
+    opacity: 1;
+}
+.header-title {
+    font-family: 'Pacifico', cursive;
+    color: #ffffff;
+    font-size: 65px;
+    text-shadow: 2px 2px #00000061;
+}
+.header-subtitle {
+    font-size: 22px;
+    font-family: 'Arial';
+    color: #ffffff;
+    text-shadow: 2px 2px #00000061
+}
+.header-subtitle p {
+    color: #ffffff;
+}
+
+.features {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    font-family: 'PT Sans', sans-serif;
+}
+h2 {
+    font-weight: bold;
+    font-size: 28px
+}
+h3 {
+    font-weight: bold;
+    font-size: 22px;
+}
+p {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #848484;
+}
+span {
+    font-size: 16px;
+    color: #848484;
+}
+.features-set {
+    padding: 80px 50px 0 50px;
+    text-align: center;
+}
+.about {
+    background-color: #e7e7e7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-text {
+
+}
+.about-icon {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.about-video {
+    padding-left: 90px;
+}
+.testimonials {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testimonials-author {
+    color: #000000;
+    font-weight: bold;
+    font-size: 17px;
+    font-style: normal;
+}
+.testimonials-text {
+    font-size: 22px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-style: italic;
+}
+.testimonials-slides {
+    display: none;
+}
+.testimonials-dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border: 2px #3498db;
+    border-style: solid;
+}
+.testimonials-dot-active, .testimonials-dot:hover {
+    background-color: #3498db;
+}
+.testimonials-fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: 0.1}
+    to {opacity: 1}
+}
+@keyframes fade {
+    from {opacity: 0.1}
+    to {opacity: 1}
+}
+
+.contact {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-top: -120px;
+    background-color: #ffffff;
+}
+.contact-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #d4d4d4;
+    color: #ffffff;
+    font-size: 10px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+.contact-icon:hover {
+    background-color: #3498db;
+}
+.footer {
+    background-color: #e7e7e7;
+    padding: 50px 0;
+}
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Arial';
+    font-size: 16px;
+    color: #848484;
+    text-align: center;
+}
+.footer ul li {
+    float: left;
+    cursor: pointer;
+    padding: 0 15px;
+}
